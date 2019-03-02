@@ -58,8 +58,11 @@ function timeUp() {
     else{
         incorrect++
     }
-    
+    $(".answerdiv").html("")
+    $("button").html("")
+    $("#time").html("")
     $("#grade").text("Correct: " + correct + "    Incorrect: " + incorrect)
+    document.getElementById("grade").style.background = "grey";
 }
 }
 
@@ -113,8 +116,12 @@ $(document).ready(function() {
             else{
                 incorrect++
             }
-        
+        $(".answerdiv").html("")
+        $("button").html("")
+        $("#time").html("")
         $("#grade").text("Correct: " + correct + "    Incorrect: " + incorrect)
+        document.getElementById("grade").style.background = "grey";
+        
         }
     })
 

@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    background-image: url("images/earth.gif");
+    background-size: cover;
 }
 
 #maindiv{
@@ -27,4 +29,30 @@ button {
 #time {
     float: right;
     margin-right: 10%;
+    background: white;
+    padding: 10px;
+}
+
+.answerdiv {
+    background: rgba(211, 211, 211, 0.558);
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+#grade {
+    padding-top: 80px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 18%;
+    margin-bottom: 40%;
+    height: 20%;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: fixed;
 }
