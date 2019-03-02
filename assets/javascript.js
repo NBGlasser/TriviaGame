@@ -65,8 +65,8 @@ function timeUp() {
     document.getElementById("grade").style.background = "grey";
     document.getElementById("grade").style.height = "20%";
     document.getElementById("grade").style.width = "95%";
-    document.getElementById("submit").style.background = "black%";
-    document.getElementById("time").style.background = "black%";
+    document.getElementById("submit").style.background = "black";
+    document.getElementById("time").style.background = "black";
 }
 }
 
@@ -127,8 +127,8 @@ $(document).ready(function() {
         document.getElementById("grade").style.background = "grey";
         document.getElementById("grade").style.height = "20%";
         document.getElementById("grade").style.width = "95%";
-        document.getElementById("submit").style.background = "black%";
-        document.getElementById("time").style.background = "black%";
+        document.getElementById("submit").style.background = "black";
+        document.getElementById("time").style.background = "black";
         
         }
     })

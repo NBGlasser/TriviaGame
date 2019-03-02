@@ -5,8 +5,8 @@ body{
 }
 
 #maindiv{
-margin-left: 35%;
-margin-right: 35%;
+margin-left: 30%;
+margin-right: 30%;
 }
 
 .answerdiv {
@@ -36,9 +36,9 @@ button {
 
 .answerdiv {
     background: rgba(211, 211, 211, 0.558);
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
     border-radius: 25px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
@@ -60,4 +60,7 @@ button {
 
 .radios {
     padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
