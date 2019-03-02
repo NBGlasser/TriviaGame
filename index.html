@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Trivia</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script type="text/javascript" src="assets/javascript.js"></script>
+    </head>
+
+    <body>
+        <p id="time">30</p>
+        <div id="maindiv">
+            <div class="answerdiv">
+                <p>Bucharest is the capital of which European country?</p>
+                <div class="radios" id="q1">
+                    <input type="radio" name="question-1" value="false"> Hungary
+                    <input type="radio" name="question-1" value="true"> Romania
+                    <input type="radio" name="question-1" value="false"> Croatia
+                    <input type="radio" name="question-1" value="false"> Moldova
+                </div>
+            </div>
+
+            <div class="answerdiv">
+                <img src="assets/images/flag.png">
+                <p>Which country does this flag belong to?</p>
+                <div class="radios" id="q2">
+                    <input type="radio" name="question-2" value="false"> Benin
+                    <input type="radio" name="question-2" value="false"> Somalia
+                    <input type="radio" name="question-2" value="false"> Nigeria
+                    <input type="radio" name="question-2" value="true"> South Africa
+                </div>
+            </div>
+            
+            <div class="answerdiv">
+                <p>What is the capital of Mexico?</p>
+                <div class="radios" id="q3">
+                    <input type="radio" name="question-3" value="true"> Mexico City
+                    <input type="radio" name="question-3" value="false"> Guadalajara
+                    <input type="radio" name="question-3" value="false"> Madrid
+                    <input type="radio" name="question-3" value="false"> Belmopan
+                </div>
+            </div>
+            
+            <div class="answerdiv">
+                <p>The only country which shares a land border with Haiti is:</p>
+                <div class="radios" id="q4">
+                    <input type="radio" name="question-4" value="false"> Jamaica
+                    <input type="radio" name="question-4" value="true"> Dominican Republic
+                    <input type="radio" name="question-4" value="false"> Barbados
+                    <input type="radio" name="question-4" value="false"> Bahamas
+                </div>
+            </div>
+
+            <div class="answerdiv">
+                <p>Which country is the furthest south?</p>
+                <div class="radios" id="q5">
+                    <input type="radio" name="question-5" value="true"> Indonesia
+                    <input type="radio" name="question-5" value="false"> Nigeria
+                    <input type="radio" name="question-5" value="false"> Panama
+                    <input type="radio" name="question-5" value="false"> Jamaica
+                </div>
+            </div>
+
+            <div class="answerdiv">
+                <p>Which country does NOT border Brazil?</p>
+                <div class="radios" id="q6">
+                    <input type="radio" name="question-6" value="false"> Venezuela
+                    <input type="radio" name="question-6" value="false"> Argentina
+                    <input type="radio" name="question-6" value="false"> Uruguay
+                    <input type="radio" name="question-6" value="true"> Ecuador
+                </div>
+            </div>
+        </div>
+        <button id="submit">
+            <h3>Submit</h3>
+        </button>
+        <div id="grade"></div>
+    </body>
+</html>
