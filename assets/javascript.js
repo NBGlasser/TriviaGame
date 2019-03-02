@@ -63,6 +63,8 @@ function timeUp() {
     $("#time").html("")
     $("#grade").text("Correct: " + correct + "    Incorrect: " + incorrect)
     document.getElementById("grade").style.background = "grey";
+    document.getElementById("grade").style.height = "20%";
+    document.getElementById("grade").style.width = "95%";
 }
 }
 
@@ -121,6 +123,8 @@ $(document).ready(function() {
         $("#time").html("")
         $("#grade").text("Correct: " + correct + "    Incorrect: " + incorrect)
         document.getElementById("grade").style.background = "grey";
+        document.getElementById("grade").style.height = "20%";
+        document.getElementById("grade").style.width = "95%";
         
         }
     })
